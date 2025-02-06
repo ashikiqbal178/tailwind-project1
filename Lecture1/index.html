@@ -5,14 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-    <title>Tailwind  css</title>
+    <title>Tailwind Project</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold text-black bg-[#FFDAB3]">I am James!</h1>
+<body class="bg-gray-800">
 
-    <div class="bg-red-50 hover:bg-black ">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg" class="w-[250px] h-[250px] hover:rotate-90" alt="">
-    </div>
+    <nav class="bg-gray-800 shadow-2xl">
+        <div class="container mx-5">
+            <div class="sm:flex justify-between py-3 ">
+                <div class="text-center mb-3">
+                    <a href="#" class="text-white text-xl sm:text-3xl item-center  "><span class="text-amber-800">S</span>mart Coders</a>
+                </div>
+                <ul class="flex font-bold text-white text-center border-t sm:border-none">
+                    <li class="p-3 mt-4 sm:mt-0 text-[#EB5A3C]"><a href="#">Home</a></li>
+                    <li class="p-3 hover:text-[#EB5A3C]"><a href="#">Contact</a></li>
+                    <li class="p-3 hover:text-[#EB5A3C]"><a href="#">Protfolio</a></li>
+                    <li class="p-3 hover:text-[#EB5A3C]"><a href="#">Blog</a></li>
+                    <li class="p-3 hover:text-[#EB5A3C]"><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container mx-auto  sm:flex justify-around item-center text-center border border-indigo-500 border-t-0 h-[80vh] px-10">
+            <div class="mb-6 mt-50">
+                <h1 class="text-3xl font-bold mb-5 ">SmartCoders:Learn <br> Programming</h1>
+                
+                <button class="bg-red-500 text-gray-800 py-3 px-10 rounded-md shadow-md hover:bg-gray-900 transition duration-300 rounded-full">Learn More <svg class="w-7 inline-block animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                  </button>
+
+            </div>
+            <div>
+                <img class="h-[500px] w-[500px] rounded-2xl animate-pulse" src="https://searchengineland.com/wp-content/seloads/2020/03/code-SS_634574354-1920x1080-1.jpg" alt="">
+
+            </div>
+        </div>
+    </header>
     
 </body>
 </html>
